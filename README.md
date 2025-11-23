@@ -1,4 +1,5 @@
 Backend Setup (FastAPI + Local Phi Mini)
+
 1️⃣ Navigate to backend
 cd backend
 
