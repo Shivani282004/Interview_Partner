@@ -67,30 +67,8 @@ FastAPI backend exposes secure APIs
 
 React frontend manages UI and session state
 
-📂 Project Structure
-interview-partner/
-│── backend/
-│   ├── llm/
-│   │   ├── load_llm.py
-│   │   └── interview_agent.py
-│   ├── models/
-│   │   └── Phi-3-mini-4k-instruct-q4.gguf
-│   ├── main.py
-│   ├── session_store.py
-│   ├── requirements.txt
-│   └── .env
-│
-│── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   |
-│   │   └── components/...
-│   ├── index.html
-│   └── package.json
-│
-└── README.md
-
 ⚙️ Backend Setup (FastAPI + Local Phi Mini)
+
 1️⃣ Navigate to backend
 cd backend
 
@@ -126,6 +104,7 @@ Backend runs at:
 👉 http://localhost:8000
 
 🎨 Frontend Setup (React + Vite)
+
 1️⃣ Navigate to frontend
 cd frontend
 
@@ -141,6 +120,7 @@ Frontend runs at:
 👉 http://localhost:5173
 
 🏛 System Architecture Overview
+
 1. User Interface (React + Vite)
 
 Handles role selection, question display, and voice input.
@@ -175,6 +155,7 @@ Tracks conversation context
 Prevents repeated questions
 
 🧩 Design Decisions
+
 ✔ Local LLM over Cloud API
 
 No cost
