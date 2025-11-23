@@ -1,6 +1,5 @@
 export default function RoleSelectorCard({ role, setRole, startInterview }) {
-  return (
-    <div style={{
+  return (    <div style={{
       width: "350px",
       padding: "25px",
       borderRadius: "12px",
@@ -50,3 +49,4 @@ export default function RoleSelectorCard({ role, setRole, startInterview }) {
     </div>
   );
 }
+

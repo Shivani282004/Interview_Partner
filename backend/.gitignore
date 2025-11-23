@@ -35,6 +35,9 @@ node_modules/
 *.bin
 *.ckpt
 
+llm/__pycache__/
+intelligence/__pycache__/
+
 models/*.gguf
 backend/models/*.gguf
 .DS_Store
